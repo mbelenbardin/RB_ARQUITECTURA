@@ -1,0 +1,91 @@
+/*botones index*/
+
+.grupoboton{
+    text-align: center;
+    position: relative;
+    top: 13rem;
+    font-family: 'Raleway', sans-serif;
+    opacity: 60%;
+    
+
+    button{
+        height: 3rem;
+        width: 15rem;
+        background-color: black;
+        font-size: 9pt !important; 
+        margin-right: 1rem;
+        letter-spacing: 0.1rem !important;
+
+        a{
+            color: white;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    button:hover{
+        background-color: grey;
+    }
+}
+
+.botones{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.1rem;
+    opacity: 60%;
+    height: 3rem;
+    width: auto;
+    background-color: black;
+    align-self: center;
+    color: white;
+
+    a{
+        color: white;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.main_boton{
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.botonreferencia{
+    @extend .grupoboton;
+    top: 0rem;
+
+}
+
+.botoncontacto{
+    position: absolute;
+    top: 40rem;
+    left: 18rem;
+    border: 0.1rem solid white;
+    font-size: 10pt;
+    letter-spacing: 0.1rem;
+    opacity: 60%;
+    height: 3rem;
+    width: auto;
+    background-color: black;
+
+    a{
+        color: white;
+        letter-spacing: 0.1rem;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: white;
+        background-color: grey;
+    }
+
+
+}

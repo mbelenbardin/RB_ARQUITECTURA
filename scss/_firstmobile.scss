@@ -1,0 +1,276 @@
+/*media - Index*/
+
+
+@media (max-width:650px){
+.main_titulomarca{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    h1{
+        font-size: 15rem;
+    }
+
+    h2{
+        font-size: 17pt;
+        top:13rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h3{
+        font-size: 10pt;
+        top:13.5rem;
+        letter-spacing: 0.1rem; 
+    }
+}
+
+.grupoboton{
+    top: 15rem;
+    font-size: 7pt;
+
+    button{
+        width: 10rem;
+    }
+}
+
+.header_navder{
+    
+    button{
+        font-size:9pt !important;
+        margin: 0rem;
+        padding: 0rem;
+    
+        a{
+            font-size: 9pt;
+            margin: 0rem;
+            padding: 0rem;   
+        }
+    }
+}
+
+#logonavegador{
+    margin-left: 0rem;
+}
+
+}
+
+@media (max-width:850px){
+    .main_titulomarca{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        h1{
+            font-size: 15rem;
+            top: 14rem;
+        }
+    
+        h2{
+            font-size: 16pt;
+            top:9rem;
+            letter-spacing: 0.1rem;
+        }
+    
+        h3{
+            font-size: 8pt;
+            top:8.5rem;
+            letter-spacing: 0.1rem; 
+        }
+    }
+    
+    .grupoboton{
+        top: 10rem;
+        font-size: 7pt;
+    
+        button{
+            width: 10rem;
+        }
+    }
+    
+    .navder{
+        
+        button{
+            font-size:9pt !important;
+            margin: 0rem;
+            padding: 0rem;
+        
+            a{
+                font-size: 9pt;
+                margin: 0rem;
+                padding: 0rem;   
+            }
+        }
+    }
+    
+    #logonavegador{
+        width: 7rem;
+        height: 7rem;
+    }
+    
+
+    .main_boton{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5rem;
+        height: 5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        position: static;
+    }
+    
+    .botonreferencia{
+        justify-self: center;
+        top: 0rem;
+
+
+        button{
+            width: 15rem;
+            font-family: 'Raleway', sans-serif;
+            opacity: 60%;
+            text-align: center;
+            margin-bottom: 6rem;
+        }
+    
+    }
+}
+
+@media (max-width:850px){
+
+    .main_informacion_RB{
+        height: 45rem;
+        margin: 0rem;
+        padding:0rem;
+        width: 95%;
+        background-image: url("imagenes/fondorb.jpg");
+        background-size: cover;
+    }
+
+    .main_informacion_RB_texto{
+        background-image: url("imagenes/fondobody.png");   
+        margin: 0rem; 
+        position: relative;
+        top:1rem;
+        left: 1rem;
+        padding-bottom: 4rem;
+        height: auto;
+        width: 95%;
+        border-top: solid white 0.1rem;
+        border-right: solid white 0.1rem;
+        border-left: solid white 0.1rem;
+        border-bottom: none;
+    
+        p{
+            padding:1rem;
+            text-align: center;
+            font-size: 10pt;
+            font-family:'Montserrat', sans-serif ;
+            color: rgb(170, 170, 170);
+            align-self: center;
+        }
+    }
+
+    .main_informacion_fotos_contenedor{
+        background-image: url("imagenes/fondobody.png");   
+        margin: 0rem; 
+        position: relative;
+        top:0rem;
+        left:1.9rem;
+        padding-bottom: 4rem;
+        height: 30rem;
+        margin-bottom: 5rem;
+        width: 90.5%;
+        border-bottom: solid white 0.1rem;
+        border-right: solid white 0.1rem;
+        border-left: solid white 0.1rem;
+        border-top: none;
+    }
+
+    .main_informacion_fotos_contenedor_contenedor{
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+    
+        img{
+            width: 160px;
+            height: 250px;
+            margin: 0rem;
+            padding: 0rem;
+            margin-top: 2rem;
+        }
+    }
+
+
+    .main_informacion_fotos_contenedor_contenedor_mascara_nico{
+        position:absolute;
+        overflow:hidden;
+        top: 2rem;
+        left: 1.5rem;
+        width: 150px;
+        height: 252px;
+        background-color: rgba(189, 189, 189, 0.9);
+        justify-self: center;
+        opacity: 0;
+    
+
+        p{
+            padding: 0.5rem;
+            padding-top: 1rem;
+            font-size: 8pt;
+            font-family:  'Montserrat', sans-serif;
+            letter-spacing: 0.1rem;
+            text-align: center;
+            color: black;
+         }
+
+    }
+
+
+    .main_informacion_fotos_contenedor_contenedor_mascara_rami{
+        position:absolute;
+        overflow:hidden;
+        top: 2rem;
+        left: 16.5rem;
+        width: 154px;
+        height: 252px;
+        background-color: rgba(189, 189, 189, 0.9);
+        justify-self: center;
+        opacity: 0;
+    
+
+        p{
+            padding: 0.5rem;
+            padding-top: 4rem;
+            font-size: 8pt;
+            font-family:  'Montserrat', sans-serif;
+            letter-spacing: 0.1rem;
+            text-align: center;
+            color: black;
+
+        }
+
+    }
+
+    .botoncontacto{
+        position: absolute;
+        top: 40rem;
+        left: 10rem;
+        border: 0.1rem solid white;
+        font-size: 10pt;
+        letter-spacing: 0.1rem;
+        opacity: 60%;
+        height: 3rem;
+        width: auto;
+        background-color: black;
+
+        a{
+            color: white;
+            letter-spacing: 0.1rem;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: white;
+            background-color: grey;
+        }
+    }
+   
+}
+

@@ -1,0 +1,81 @@
+/*header*/
+
+#logonavegador {
+	width: 8rem;
+	height: 8rem;
+	float: left; }
+  
+#logonavegador:hover {
+	transform: rotate(360deg);
+	transition: 1s; }
+
+.header {
+	background-color: black;
+	width: 100%;
+	height: 5rem;
+	margin: 0;
+	padding: 0;
+	position: sticky;
+	top: 0rem;
+	border-bottom: 0.1rem solid grey; 
+}
+
+#logonavegador {
+	width: 8rem;
+	height: 8rem;
+	float: left; }
+  
+#logonavegador:hover {
+	transform: rotate(360deg);
+	transition: 1s; 
+}
+
+.header_navder{
+	margin-top:1rem;
+}
+
+.btn-group{
+	float:right;
+}
+
+.header_navder button {
+	color: grey;
+	font-size: 11pt !important;
+	font-weight: bold;
+	margin-right: 1rem;
+	letter-spacing: 0.1rem; 
+	
+}
+	  
+.header_navder button a {
+	color: grey;
+	font-size: 11pt;
+	margin-right: 1rem;
+	letter-spacing: 0.1rem;
+	font-style: bold; 
+}
+	  
+.header_navder button:hover {
+	color: white;
+	text-decoration: none; 
+}
+	  
+.header_navder button a:hover {
+	color: white;
+	text-decoration: none; 
+}
+	  
+.dropdown-menu {
+	font-size: 9pt;
+	width: 23rem;
+	background-color: black;
+	font-style: bold;
+	
+ }
+	  
+.dropdown-menu a {
+	margin-top: 0.5rem;
+	color: white;
+	font-weight: bold; 
+}
+

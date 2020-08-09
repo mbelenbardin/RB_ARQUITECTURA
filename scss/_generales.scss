@@ -1,0 +1,60 @@
+/*generales*/
+
+@font-face {
+	font-family: "Flux Architect Regular";
+    src: url("Flux Architect Regular.ttf"); 
+}
+  
+  
+html {
+	font-size: 62.5%; 
+	font-family: sans-serif;
+
+ 
+}
+
+body{
+	background-image: url("imagenes/fondobody.png");
+
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.main{
+    height: auto;
+	width: 100%;
+	margin-left: 0rem;
+}
+
+.box_titulo{
+	height: auto;
+	width: 100%;
+	margin:0rem;
+	padding:0rem;
+}
+
+.contenido{
+	height: auto;
+	width: 100%;
+	margin:0rem;
+	padding:0rem;
+}
+
+.row{
+	margin-left: 0;
+	padding: 0;
+}
+
+
+.main_titulo{
+	height: auto;
+	justify-content: center;
+	position: static;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+

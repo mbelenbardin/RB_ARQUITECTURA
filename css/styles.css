@@ -1,0 +1,787 @@
+/*generales*/
+@font-face {
+  font-family: "Flux Architect Regular";
+  src: url("Flux Architect Regular.ttf"); }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+body {
+  background-image: url("imagenes/fondobody.png"); }
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.main {
+  height: auto;
+  width: 100%;
+  margin-left: 0rem; }
+
+.box_titulo {
+  height: auto;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem; }
+
+.contenido {
+  height: auto;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem; }
+
+.row {
+  margin-left: 0;
+  padding: 0; }
+
+.main_titulo {
+  height: auto;
+  justify-content: center;
+  position: static;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+/*header*/
+#logonavegador {
+  width: 8rem;
+  height: 8rem;
+  float: left; }
+
+#logonavegador:hover {
+  transform: rotate(360deg);
+  transition: 1s; }
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0rem;
+  border-bottom: 0.1rem solid grey; }
+
+#logonavegador {
+  width: 8rem;
+  height: 8rem;
+  float: left; }
+
+#logonavegador:hover {
+  transform: rotate(360deg);
+  transition: 1s; }
+
+.header_navder {
+  margin-top: 1rem; }
+
+.btn-group {
+  float: right; }
+
+.header_navder button {
+  color: grey;
+  font-size: 11pt !important;
+  font-weight: bold;
+  margin-right: 1rem;
+  letter-spacing: 0.1rem; }
+
+.header_navder button a {
+  color: grey;
+  font-size: 11pt;
+  margin-right: 1rem;
+  letter-spacing: 0.1rem;
+  font-style: bold; }
+
+.header_navder button:hover {
+  color: white;
+  text-decoration: none; }
+
+.header_navder button a:hover {
+  color: white;
+  text-decoration: none; }
+
+.dropdown-menu {
+  font-size: 9pt;
+  width: 23rem;
+  background-color: black;
+  font-style: bold; }
+
+.dropdown-menu a {
+  margin-top: 0.5rem;
+  color: white;
+  font-weight: bold; }
+
+/*footer*/
+.footer {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%; }
+
+.footer_texto {
+  background-color: transparent;
+  height: 2.5rem;
+  color: #6e6e6e;
+  text-align: center;
+  font-size: 8pt;
+  padding: 0rem;
+  margin-top: 0rem; }
+
+.footer_redes {
+  text-align: right;
+  background-color: transparent;
+  width: 100%;
+  padding-left: 0rem;
+  padding-right: 0rem; }
+  .footer_redes ul {
+    margin-right: 1rem; }
+    .footer_redes ul li {
+      display: block;
+      list-style: none; }
+      .footer_redes ul li img {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 1.5rem; }
+
+/*titulo index*/
+.main_titulomarca {
+  text-align: center;
+  position: static; }
+  .main_titulomarca h1 {
+    font-size: 22rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke: 0.3rem black;
+    color: white;
+    position: relative;
+    top: 18rem; }
+  .main_titulomarca h2 {
+    color: black;
+    -webkit-text-stroke: 0.03rem rgba(204, 202, 201, 0.856);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 30pt;
+    position: relative;
+    top: 10rem; }
+  .main_titulomarca h3 {
+    color: white;
+    opacity: 80%;
+    letter-spacing: 0.2rem;
+    font-size: 12pt;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 11rem; }
+
+/*titulos principales*/
+.main_tituloprincipal {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: static; }
+  .main_tituloprincipal .titulo_principal {
+    font-size: 20pt;
+    letter-spacing: 0.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 1rem;
+    padding: 1rem; }
+  .main_tituloprincipal .linea hr {
+    background-color: #af9522;
+    margin-top: 0rem;
+    width: 5rem; }
+  .main_tituloprincipal p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 12pt;
+    padding: 1rem;
+    text-align: center;
+    color: #aaaaaa; }
+
+/*titulo formulario*/
+.main_informacion_formulario_titulo h2 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: white;
+  letter-spacing: 0.2rem;
+  width: auto; }
+
+.main_subtituloprincipal {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.15rem;
+  font-size: 18pt;
+  padding: 1rem;
+  color: white;
+  opacity: 60%; }
+
+#main_proyectos_contenedor_titulo {
+  font-size: 8rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  -webkit-text-stroke: 0.1rem #888888;
+  color: white; }
+
+#main_proyectos_contenedor_subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+.titulo_proyecto_1 {
+  justify-content: center; }
+  .titulo_proyecto_1 h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 14pt;
+    padding: 1rem; }
+
+.titulo_proyecto_2 {
+  justify-content: center; }
+  .titulo_proyecto_2 h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 14pt;
+    padding: 1rem; }
+
+/*botones index*/
+.grupoboton, .botonreferencia {
+  text-align: center;
+  position: relative;
+  top: 13rem;
+  font-family: 'Raleway', sans-serif;
+  opacity: 60%; }
+  .grupoboton button, .botonreferencia button {
+    height: 3rem;
+    width: 15rem;
+    background-color: black;
+    font-size: 9pt !important;
+    margin-right: 1rem;
+    letter-spacing: 0.1rem !important; }
+    .grupoboton button a, .botonreferencia button a {
+      color: white; }
+    .grupoboton button a:hover, .botonreferencia button a:hover {
+      text-decoration: none;
+      color: white; }
+  .grupoboton button:hover, .botonreferencia button:hover {
+    background-color: grey; }
+
+.botones {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
+  letter-spacing: 0.1rem;
+  opacity: 60%;
+  height: 3rem;
+  width: auto;
+  background-color: black;
+  align-self: center;
+  color: white; }
+  .botones a {
+    color: white; }
+  .botones a:hover {
+    text-decoration: none;
+    color: white; }
+
+.main_boton {
+  justify-content: center;
+  margin-top: 3rem; }
+
+.botonreferencia {
+  top: 0rem; }
+
+.botoncontacto {
+  position: absolute;
+  top: 40rem;
+  left: 18rem;
+  border: 0.1rem solid white;
+  font-size: 10pt;
+  letter-spacing: 0.1rem;
+  opacity: 60%;
+  height: 3rem;
+  width: auto;
+  background-color: black; }
+  .botoncontacto a {
+    color: white;
+    letter-spacing: 0.1rem; }
+  .botoncontacto a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: grey; }
+
+/*servicios*/
+.main_titulo {
+  padding: 0rem;
+  padding-right: 0rem;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: static; }
+
+.main_servicios, .main_informacion {
+  justify-content: center;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.main_servicios_contenedor {
+  border-radius: 2rem;
+  border: 0.2rem solid #0e0e0e;
+  box-shadow: 5px 5px 0 #0c0c0c;
+  background-image: url("imagenes/fondoservicios.png");
+  display: inline-block;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+  height: 16rem; }
+  .main_servicios_contenedor img {
+    height: 6rem;
+    width: 6rem;
+    margin: 1rem;
+    filter: grayscale(100%); }
+  .main_servicios_contenedor :hover {
+    filter: grayscale(0%); }
+  .main_servicios_contenedor p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #666666; }
+
+.main_informacion_formulario {
+  text-align: center;
+  margin-bottom: 10rem;
+  height: auto; }
+
+.main_informacion_formulario_form {
+  justify-content: center;
+  height: auto;
+  padding: 2rem;
+  margin-right: 5rem;
+  background-image: url("imagenes/fondoservicios.png");
+  border: 0.2rem solid #222121;
+  box-shadow: 3px 5px 2px #222121;
+  border-radius: 2rem; }
+  .main_informacion_formulario_form form input {
+    height: 46px;
+    width: 80%;
+    background: transparent;
+    border: 1px solid #525151;
+    font-size: 14px;
+    color: #444444;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem; }
+  .main_informacion_formulario_form form textarea {
+    height: 140px;
+    width: 80%;
+    background: transparent;
+    border: 1px solid  #525151;
+    font-size: 14px;
+    color: #444444;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    resize: none;
+    color: #444444; }
+  .main_informacion_formulario_form form button {
+    width: 40%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    letter-spacing: 0.1rem;
+    height: 3rem;
+    border: solid 0.1rem white;
+    opacity: 60%; }
+  .main_informacion_formulario_form form button:hover {
+    color: whitesmoke;
+    background-color: black; }
+
+.main_informacion_personal {
+  justify-content: center;
+  height: auto;
+  align-items: center; }
+  .main_informacion_personal ul {
+    height: auto;
+    padding: 2rem;
+    color: #aaaaaa;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2rem; }
+    .main_informacion_personal ul li {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 6rem;
+      margin-bottom: 5rem; }
+      .main_informacion_personal ul li hr {
+        width: 6%;
+        background-color: #aaaaaa; }
+      .main_informacion_personal ul li .telefono {
+        width: 3rem;
+        height: 4rem; }
+      .main_informacion_personal ul li .mapa {
+        width: 4rem;
+        height: 3rem; }
+      .main_informacion_personal ul li .mail {
+        width: 4rem;
+        height: 3rem; }
+
+.main_informacion_RB {
+  height: 50rem;
+  margin: 0rem;
+  margin-left: 4rem;
+  background-image: url("imagenes/fondorb.jpg");
+  background-size: cover; }
+
+.main_informacion_RB_texto {
+  background-image: url("imagenes/fondobody.png");
+  margin: 0rem;
+  position: relative;
+  top: 2.5rem;
+  left: 10rem;
+  height: 45rem;
+  width: 48.5rem;
+  border-top: solid white 0.1rem;
+  border-bottom: solid white 0.1rem;
+  border-left: solid white 0.1rem; }
+  .main_informacion_RB_texto p {
+    padding: 2rem;
+    text-align: center;
+    font-size: 10.5pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #aaaaaa;
+    align-self: center; }
+
+.main_informacion_fotos {
+  margin: 0rem;
+  padding: 0rem; }
+
+.main_informacion_fotos_contenedor {
+  margin: 0rem;
+  position: relative;
+  top: 2.5rem;
+  left: 0rem;
+  height: 45rem;
+  padding-left: 0rem;
+  border-top: solid white 0.1rem;
+  border-bottom: solid white 0.1rem;
+  border-right: solid white 0.1rem; }
+
+.main_informacion_fotos_contenedor_contenedor {
+  position: absolute;
+  top: 7rem;
+  left: 4rem; }
+  .main_informacion_fotos_contenedor_contenedor img {
+    width: 220px;
+    height: 300px;
+    margin: 0rem;
+    padding: 0rem; }
+
+.main_informacion_fotos_contenedor_contenedor_mascara_nico {
+  position: absolute;
+  overflow: hidden;
+  top: 0rem;
+  left: 0rem;
+  width: 223px;
+  height: 303px;
+  background-color: rgba(189, 189, 189, 0.9);
+  justify-self: center;
+  opacity: 0; }
+  .main_informacion_fotos_contenedor_contenedor_mascara_nico p {
+    padding: 0.5rem;
+    padding-top: 4rem;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: black; }
+
+.main_informacion_fotos_contenedor_contenedor_mascara_rami {
+  position: absolute;
+  overflow: hidden;
+  top: 0rem;
+  left: 22.5rem;
+  width: 221px;
+  height: 303px;
+  background-color: rgba(189, 189, 189, 0.9);
+  justify-self: center;
+  opacity: 0; }
+  .main_informacion_fotos_contenedor_contenedor_mascara_rami p {
+    padding: 0.5rem;
+    padding-top: 4rem;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: black; }
+
+.main_informacion_fotos_contenedor_contenedor_mascara_rami:hover {
+  opacity: 1;
+  transition: opacity 0.6s; }
+
+.main_informacion_fotos_contenedor_contenedor_mascara_nico:hover {
+  opacity: 1;
+  transition: opacity 0.6s; }
+
+.main_main {
+  justify-content: center; }
+
+.main_proyectos {
+  justify-content: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-radius: 4rem;
+  width: 100%; }
+
+.main_proyectos_contenedor {
+  background-image: none;
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  padding: 0rem; }
+  .main_proyectos_contenedor h2 {
+    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1rem #888888;
+    color: #241f1f; }
+  .main_proyectos_contenedor p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #666666; }
+
+.main_otrosproyectos {
+  width: 100%;
+  height: auto;
+  margin: 0rem;
+  justify-content: center;
+  margin-bottom: 4rem; }
+
+.main_otrosproyectos1, .main_otrosproyectos2 {
+  height: auto;
+  width: 90%;
+  background-color: black;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: solid 0.1rem black;
+  box-shadow: -2px -2px 5px 2px #222121;
+  justify-self: center; }
+
+.descripciontexto1, .descripciontexto2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 10pt;
+  padding: 2rem;
+  text-align: center;
+  color: #aaaaaa; }
+
+.descripciontexto2 {
+  color: black; }
+
+.main_otrosproyectos2 {
+  background-color: white;
+  border-left: solid 0.1rem grey; }
+
+.proyecto_contenido {
+  padding: 1rem; }
+
+/*media - Index*/
+@media (max-width: 650px) {
+  .main_titulomarca {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .main_titulomarca h1 {
+      font-size: 15rem; }
+    .main_titulomarca h2 {
+      font-size: 17pt;
+      top: 13rem;
+      letter-spacing: 0.1rem; }
+    .main_titulomarca h3 {
+      font-size: 10pt;
+      top: 13.5rem;
+      letter-spacing: 0.1rem; }
+  .grupoboton, .botonreferencia {
+    top: 15rem;
+    font-size: 7pt; }
+    .grupoboton button, .botonreferencia button {
+      width: 10rem; }
+  .header_navder button {
+    font-size: 9pt !important;
+    margin: 0rem;
+    padding: 0rem; }
+    .header_navder button a {
+      font-size: 9pt;
+      margin: 0rem;
+      padding: 0rem; }
+  #logonavegador {
+    margin-left: 0rem; } }
+
+@media (max-width: 850px) {
+  .main_titulomarca {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .main_titulomarca h1 {
+      font-size: 15rem;
+      top: 14rem; }
+    .main_titulomarca h2 {
+      font-size: 16pt;
+      top: 9rem;
+      letter-spacing: 0.1rem; }
+    .main_titulomarca h3 {
+      font-size: 8pt;
+      top: 8.5rem;
+      letter-spacing: 0.1rem; }
+  .grupoboton, .botonreferencia {
+    top: 10rem;
+    font-size: 7pt; }
+    .grupoboton button, .botonreferencia button {
+      width: 10rem; }
+  .navder button {
+    font-size: 9pt !important;
+    margin: 0rem;
+    padding: 0rem; }
+    .navder button a {
+      font-size: 9pt;
+      margin: 0rem;
+      padding: 0rem; }
+  #logonavegador {
+    width: 7rem;
+    height: 7rem; }
+  .main_boton {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+    height: 5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    position: static; }
+  .botonreferencia {
+    justify-self: center;
+    top: 0rem; }
+    .botonreferencia button {
+      width: 15rem;
+      font-family: 'Raleway', sans-serif;
+      opacity: 60%;
+      text-align: center;
+      margin-bottom: 6rem; } }
+
+@media (max-width: 850px) {
+  .main_informacion_RB {
+    height: 45rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 95%;
+    background-image: url("imagenes/fondorb.jpg");
+    background-size: cover; }
+  .main_informacion_RB_texto {
+    background-image: url("imagenes/fondobody.png");
+    margin: 0rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    padding-bottom: 4rem;
+    height: auto;
+    width: 95%;
+    border-top: solid white 0.1rem;
+    border-right: solid white 0.1rem;
+    border-left: solid white 0.1rem;
+    border-bottom: none; }
+    .main_informacion_RB_texto p {
+      padding: 1rem;
+      text-align: center;
+      font-size: 10pt;
+      font-family: 'Montserrat', sans-serif;
+      color: #aaaaaa;
+      align-self: center; }
+  .main_informacion_fotos_contenedor {
+    background-image: url("imagenes/fondobody.png");
+    margin: 0rem;
+    position: relative;
+    top: 0rem;
+    left: 1.9rem;
+    padding-bottom: 4rem;
+    height: 30rem;
+    margin-bottom: 5rem;
+    width: 90.5%;
+    border-bottom: solid white 0.1rem;
+    border-right: solid white 0.1rem;
+    border-left: solid white 0.1rem;
+    border-top: none; }
+  .main_informacion_fotos_contenedor_contenedor {
+    position: absolute;
+    top: 0rem;
+    left: 1rem; }
+    .main_informacion_fotos_contenedor_contenedor img {
+      width: 160px;
+      height: 250px;
+      margin: 0rem;
+      padding: 0rem;
+      margin-top: 2rem; }
+  .main_informacion_fotos_contenedor_contenedor_mascara_nico {
+    position: absolute;
+    overflow: hidden;
+    top: 2rem;
+    left: 1.5rem;
+    width: 150px;
+    height: 252px;
+    background-color: rgba(189, 189, 189, 0.9);
+    justify-self: center;
+    opacity: 0; }
+    .main_informacion_fotos_contenedor_contenedor_mascara_nico p {
+      padding: 0.5rem;
+      padding-top: 1rem;
+      font-size: 8pt;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      color: black; }
+  .main_informacion_fotos_contenedor_contenedor_mascara_rami {
+    position: absolute;
+    overflow: hidden;
+    top: 2rem;
+    left: 16.5rem;
+    width: 154px;
+    height: 252px;
+    background-color: rgba(189, 189, 189, 0.9);
+    justify-self: center;
+    opacity: 0; }
+    .main_informacion_fotos_contenedor_contenedor_mascara_rami p {
+      padding: 0.5rem;
+      padding-top: 4rem;
+      font-size: 8pt;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      color: black; }
+  .botoncontacto {
+    position: absolute;
+    top: 40rem;
+    left: 10rem;
+    border: 0.1rem solid white;
+    font-size: 10pt;
+    letter-spacing: 0.1rem;
+    opacity: 60%;
+    height: 3rem;
+    width: auto;
+    background-color: black; }
+    .botoncontacto a {
+      color: white;
+      letter-spacing: 0.1rem; }
+    .botoncontacto a:hover {
+      text-decoration: none;
+      color: white;
+      background-color: grey; } }
