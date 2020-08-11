@@ -150,7 +150,7 @@
         top:1rem;
         left: 1rem;
         padding-bottom: 4rem;
-        height: auto;
+        height: 50rem;
         width: 95%;
         border-top: solid white 0.1rem;
         border-right: solid white 0.1rem;
@@ -164,6 +164,12 @@
             font-family:'Montserrat', sans-serif ;
             color: rgb(170, 170, 170);
             align-self: center;
+        }
+
+        .botoncontacto{
+            position: absolute;
+            top: 37rem;
+            left: 13rem;
         }
     }
 

@@ -16,16 +16,15 @@
 }
 
 .main_servicios_contenedor{
-    border-radius: 2rem ;
-    border: 0.2rem solid rgb(14, 14, 14);
-    box-shadow: 5px 5px 0 rgb(12, 12, 12);
+    border-radius: 5rem ;
+    border: 0.2rem solid rgba(39, 39, 39, 0.349);
+    box-shadow: 3px 4px 5px rgba(39, 39, 39, 0.349);
     background-image: url("imagenes/fondoservicios.png");
     display: inline-block;
     text-align: center;
     padding: 1rem;
     margin: 2rem;
     height: 16rem;
-    
 
     img{
         height: 6rem;
@@ -46,9 +45,11 @@
 	    letter-spacing: 0.1rem;
         text-align: center;
         color: rgb(102, 102, 102);
+        margin-top: 1rem;
     }
 }
 
+/*contacto*/
 .main_informacion{
     @extend .main_servicios
 }
@@ -65,8 +66,8 @@
 	padding:2rem;
     margin-right: 5rem;
     background-image: url("imagenes/fondoservicios.png");
-    border: 0.2rem solid rgb(34, 33, 33);
-    box-shadow: 3px 5px 2px rgb(34, 33, 33);
+    border: 0.2rem solid rgba(61, 61, 61, 0.397);
+    box-shadow: 3px 4px 5px rgba(39, 39, 39, 0.349);
     border-radius: 2rem;
     
     form{
@@ -98,24 +99,6 @@
 
         }
 
-        button{
-            width: 40%;
-            background-color: gray;
-            color: white;
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-size: 10pt;
-            letter-spacing: 0.1rem;
-            height: 3rem;
-            border: solid 0.1rem white;
-            opacity: 60%;
-            
-        }
-
-        button:hover{
-            color: whitesmoke;
-            background-color: black;
-            }
     }
 }
 
@@ -166,6 +149,8 @@
     
 }
 
+/*contacto*/
+
 .main_informacion_RB{
     height: 50rem;
     margin: 0rem;
@@ -189,7 +174,7 @@
     p{
         padding:2rem;
         text-align: center;
-        font-size: 10.5pt;
+        font-size: 11pt;
         font-family:'Montserrat', sans-serif ;
         color: rgb(170, 170, 170);
         align-self: center;
@@ -253,7 +238,6 @@
 
 }
 
-
 .main_informacion_fotos_contenedor_contenedor_mascara_rami{
     position:absolute;
     overflow:hidden;
@@ -290,6 +274,8 @@
     transition: opacity 0.6s;
 
 }
+
+/*proyectos*/
 
 .main_main{
     justify-content: center;

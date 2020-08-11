@@ -15,7 +15,8 @@
 	height: 5rem;
 	margin: 0;
 	padding: 0;
-	position: sticky;
+	position: fixed;
+	z-index: 2;
 	top: 0rem;
 	border-bottom: 0.1rem solid grey; 
 }

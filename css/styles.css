@@ -18,10 +18,11 @@ body {
 .main {
   height: auto;
   width: 100%;
-  margin-left: 0rem; }
+  margin-left: 0rem;
+  margin-top: 5rem; }
 
 .box_titulo {
-  height: auto;
+  height: 100vh;
   width: 100%;
   margin: 0rem;
   padding: 0rem; }
@@ -59,7 +60,8 @@ body {
   height: 5rem;
   margin: 0;
   padding: 0;
-  position: sticky;
+  position: fixed;
+  z-index: 2;
   top: 0rem;
   border-bottom: 0.1rem solid grey; }
 
@@ -112,35 +114,26 @@ body {
   font-weight: bold; }
 
 /*footer*/
-.footer {
-  position: fixed;
-  bottom: 0rem;
-  width: 100%; }
-
 .footer_texto {
+  position: fixed;
+  bottom: 0.5rem;
   background-color: transparent;
   height: 2.5rem;
   color: #6e6e6e;
   text-align: center;
-  font-size: 8pt;
-  padding: 0rem;
-  margin-top: 0rem; }
+  font-size: 8pt; }
 
 .footer_redes {
-  text-align: right;
-  background-color: transparent;
-  width: 100%;
-  padding-left: 0rem;
-  padding-right: 0rem; }
-  .footer_redes ul {
-    margin-right: 1rem; }
-    .footer_redes ul li {
-      display: block;
-      list-style: none; }
-      .footer_redes ul li img {
-        width: 3.5rem;
-        height: 3.5rem;
-        margin-bottom: 1.5rem; }
+  position: fixed;
+  right: 1.2rem;
+  bottom: 3rem;
+  background-color: transparent; }
+  .footer_redes a {
+    display: block; }
+    .footer_redes a img {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-bottom: 1.5rem; }
 
 /*titulo index*/
 .main_titulomarca {
@@ -330,9 +323,9 @@ body {
   padding-right: 0px; }
 
 .main_servicios_contenedor {
-  border-radius: 2rem;
-  border: 0.2rem solid #0e0e0e;
-  box-shadow: 5px 5px 0 #0c0c0c;
+  border-radius: 5rem;
+  border: 0.2rem solid rgba(39, 39, 39, 0.349);
+  box-shadow: 3px 4px 5px rgba(39, 39, 39, 0.349);
   background-image: url("imagenes/fondoservicios.png");
   display: inline-block;
   text-align: center;
@@ -352,8 +345,10 @@ body {
     padding: 1rem;
     letter-spacing: 0.1rem;
     text-align: center;
-    color: #666666; }
+    color: #666666;
+    margin-top: 1rem; }
 
+/*contacto*/
 .main_informacion_formulario {
   text-align: center;
   margin-bottom: 10rem;
@@ -365,8 +360,8 @@ body {
   padding: 2rem;
   margin-right: 5rem;
   background-image: url("imagenes/fondoservicios.png");
-  border: 0.2rem solid #222121;
-  box-shadow: 3px 5px 2px #222121;
+  border: 0.2rem solid rgba(61, 61, 61, 0.397);
+  box-shadow: 3px 4px 5px rgba(39, 39, 39, 0.349);
   border-radius: 2rem; }
   .main_informacion_formulario_form form input {
     height: 46px;
@@ -389,20 +384,6 @@ body {
     margin-bottom: 1rem;
     resize: none;
     color: #444444; }
-  .main_informacion_formulario_form form button {
-    width: 40%;
-    background-color: gray;
-    color: white;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 10pt;
-    letter-spacing: 0.1rem;
-    height: 3rem;
-    border: solid 0.1rem white;
-    opacity: 60%; }
-  .main_informacion_formulario_form form button:hover {
-    color: whitesmoke;
-    background-color: black; }
 
 .main_informacion_personal {
   justify-content: center;
@@ -434,6 +415,7 @@ body {
         width: 4rem;
         height: 3rem; }
 
+/*contacto*/
 .main_informacion_RB {
   height: 50rem;
   margin: 0rem;
@@ -455,7 +437,7 @@ body {
   .main_informacion_RB_texto p {
     padding: 2rem;
     text-align: center;
-    font-size: 10.5pt;
+    font-size: 11pt;
     font-family: 'Montserrat', sans-serif;
     color: #aaaaaa;
     align-self: center; }
@@ -531,6 +513,7 @@ body {
   opacity: 1;
   transition: opacity 0.6s; }
 
+/*proyectos*/
 .main_main {
   justify-content: center; }
 
@@ -694,7 +677,7 @@ body {
     top: 1rem;
     left: 1rem;
     padding-bottom: 4rem;
-    height: auto;
+    height: 50rem;
     width: 95%;
     border-top: solid white 0.1rem;
     border-right: solid white 0.1rem;
@@ -707,6 +690,10 @@ body {
       font-family: 'Montserrat', sans-serif;
       color: #aaaaaa;
       align-self: center; }
+    .main_informacion_RB_texto .botoncontacto {
+      position: absolute;
+      top: 37rem;
+      left: 13rem; }
   .main_informacion_fotos_contenedor {
     background-image: url("imagenes/fondobody.png");
     margin: 0rem;
