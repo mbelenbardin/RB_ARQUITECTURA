@@ -705,7 +705,7 @@ body {
     padding-bottom: 4rem;
     height: 30rem;
     margin-bottom: 5rem;
-    width: 90.5%;
+    width: 90.6%;
     border-bottom: solid white 0.1rem;
     border-right: solid white 0.1rem;
     border-left: solid white 0.1rem;
@@ -713,7 +713,7 @@ body {
   .main_informacion_fotos_contenedor_contenedor {
     position: absolute;
     top: 0rem;
-    left: 1rem; }
+    left: 3rem; }
     .main_informacion_fotos_contenedor_contenedor img {
       width: 160px;
       height: 250px;
@@ -723,7 +723,7 @@ body {
   .main_informacion_fotos_contenedor_contenedor_mascara_nico {
     position: absolute;
     overflow: hidden;
-    top: 2rem;
+    top: 2.3rem;
     left: 1.5rem;
     width: 150px;
     height: 252px;
@@ -741,7 +741,7 @@ body {
   .main_informacion_fotos_contenedor_contenedor_mascara_rami {
     position: absolute;
     overflow: hidden;
-    top: 2rem;
+    top: 2.3rem;
     left: 16.5rem;
     width: 154px;
     height: 252px;
