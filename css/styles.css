@@ -351,7 +351,7 @@ body {
 /*contacto*/
 .main_informacion_formulario {
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   height: auto; }
 
 .main_informacion_formulario_form {
@@ -415,7 +415,7 @@ body {
         width: 4rem;
         height: 3rem; }
 
-/*contacto*/
+/*nosotros*/
 .main_informacion_RB {
   height: 50rem;
   margin: 0rem;
@@ -474,9 +474,10 @@ body {
   left: 0rem;
   width: 223px;
   height: 303px;
-  background-color: rgba(189, 189, 189, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   justify-self: center;
-  opacity: 0; }
+  opacity: 0;
+  border: 0.3rem solid black; }
   .main_informacion_fotos_contenedor_contenedor_mascara_nico p {
     padding: 0.5rem;
     padding-top: 4rem;
@@ -493,9 +494,10 @@ body {
   left: 22.5rem;
   width: 221px;
   height: 303px;
-  background-color: rgba(189, 189, 189, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   justify-self: center;
-  opacity: 0; }
+  opacity: 0;
+  border: 0.3rem solid black; }
   .main_informacion_fotos_contenedor_contenedor_mascara_rami p {
     padding: 0.5rem;
     padding-top: 4rem;
