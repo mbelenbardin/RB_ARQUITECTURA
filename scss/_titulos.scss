@@ -3,6 +3,9 @@
 .main_titulomarca{
     text-align: center;
     position: static;
+    height: 100vh;
+    justify-items: center;
+    align-items:center;
 
     h1{
         font-size: 22rem;
@@ -11,7 +14,8 @@
         -webkit-text-stroke: 0.3rem black;
         color: white;   
         position: relative;
-        top: 18rem;           
+        top: 20%;
+      
     }
 
     h2{
@@ -21,7 +25,8 @@
         letter-spacing: 0.3rem;
         font-size: 30pt;
         position: relative;
-        top: 10rem;
+        top: 10%;
+
     }
 
     h3{
@@ -32,7 +37,8 @@
         font-style: bold;
         font-family: 'Montserrat', sans-serif;
         position: relative;
-        top: 11rem;
+        top: 10%;
+
     }
 
     
@@ -127,26 +133,4 @@
     color:white;  
 }
 
-.titulo_proyecto_1{
-    justify-content: center;
 
-    h2{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 0.15rem;
-        font-size: 14pt;
-        padding: 1rem;
-    }
-}
-
-.titulo_proyecto_2{
-    justify-content: center;
-
-    h2{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 0.15rem;
-        font-size: 14pt;
-        padding: 1rem;
-    }
-}

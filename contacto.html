@@ -69,16 +69,16 @@
 						<div class="main_informacion_formulario_titulo">
 							<h2>- FORMULARIO DE CONTACTO -</h2>							
 						</div>
-						<form action="#">
-							<input type="text" placeholder="Nombre">
-							<input type="text" placeholder="Email">
-							<input type="text" placeholder="Telefono/celular">
-							<input type="text" placeholder="Horario de contacto">
-							<textarea placeholder="Mensaje"></textarea>
+						<form action="index.php" method="POST">
+							<input type="text" placeholder="Nombre" name="Nombre">
+							<input type="text" placeholder="Email" name="Email">
+							<input type="text" placeholder="Telefono/celular" name="telefono">
+							<input type="text" placeholder="Horario de contacto" name="horariocontacto">
+							<textarea placeholder="Mensaje" name="Mensaje"></textarea>
 							<div class="botonreferencia align-self-center">
-								<button type="button" class="btn btn-secondary">
+								<submit type="submit" value="enviar" class="btn btn-outline-secondary botonenviar">
 									ENVIAR
-								</button>
+								</submit>
 							</div>
 						</form>
 					</div>

@@ -135,148 +135,82 @@
 @media (max-width:850px){
 
     .main_informacion_RB{
-        height: 45rem;
-        margin: 0rem;
-        padding:0rem;
-        width: 95%;
-        background-image: url("imagenes/fondorb.jpg");
-        background-size: cover;
+        height: 108rem;
+        margin-bottom: 4rem;
     }
-
-    .main_informacion_RB_texto{
-        background-image: url("imagenes/fondobody.png");   
-        margin: 0rem; 
-        position: relative;
-        top:1rem;
-        left: 1rem;
-        padding-bottom: 4rem;
-        height: 47rem;
-        width: 95%;
-        border-top: solid white 0.1rem;
-        border-right: solid white 0.1rem;
-        border-left: solid white 0.1rem;
-        border-bottom: none;
     
-        p{
-            padding:1rem;
-            text-align: center;
-            font-size: 10pt;
-            font-family:'Montserrat', sans-serif ;
-            color: rgb(170, 170, 170);
-            align-self: center;
-        }
-
-        .botoncontacto{
-            position: absolute;
-            top: 39rem;
-            left: 12rem;
-        }
+    .main_informacion_RB_texto{ 
+        padding-bottom:1rem;
     }
-
-    .main_informacion_fotos_contenedor{
-        background-image: url("imagenes/fondobody.png");   
-        margin: 0rem; 
-        position: relative;
-        top:0rem;
-        left:1.98rem;
-        padding-bottom: 4rem;
-        height: 30rem;
-        margin-bottom: 5rem;
-        width: 90.6%;
-        border-bottom: solid white 0.1rem;
-        border-right: solid white 0.1rem;
-        border-left: solid white 0.1rem;
-        border-top: none;
-    }
-
-    .main_informacion_fotos_contenedor_contenedor{
-        position: absolute;
+    
+    .main_informacion_RB_nico{
         top: 0rem;
-        left: 3rem;
-    
+        width: 40%;
+        
         img{
-            width: 160px;
             height: 250px;
-            margin: 0rem;
-            padding: 0rem;
-            margin-top: 2rem;
+            width: 100%;
         }
+        
     }
-
-
-    .main_informacion_fotos_contenedor_contenedor_mascara_nico{
-        position:absolute;
-        overflow:hidden;
-        top: 2.5rem;
-        left: 0.4rem;
-        width: 163px;
-        height: 252px;
-        background-color: rgba(189, 189, 189, 0.9);
-        justify-self: center;
-        opacity: 0;
     
-
-        p{
-            padding: 0.5rem;
-            padding-top: 1rem;
-            font-size: 8pt;
-            font-family:  'Montserrat', sans-serif;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            color: black;
-         }
-
-    }
-
-
-    .main_informacion_fotos_contenedor_contenedor_mascara_rami{
-        position:absolute;
-        overflow:hidden;
-        top: 2.5rem;
-        left: 16.2rem;
-        width: 164px;
-        height: 252px;
-        background-color: rgba(189, 189, 189, 0.9);
-        justify-self: center;
-        opacity: 0;
+    .overlaynico{
+        height: 90%;
     
-
+    }
+    
+    .main_informacion_RB_nico:hover .overlaynico {
+        width: 95%;
+        left: 0.5rem;
+    
         p{
-            padding: 0.5rem;
-            padding-top: 4rem;
-            font-size: 8pt;
-            font-family:  'Montserrat', sans-serif;
-            letter-spacing: 0.1rem;
             text-align: center;
-            color: black;
-
-        }
-
-    }
-
-    .botoncontacto{
-        position: absolute;
-        top: 40rem;
-        left: 10rem;
-        border: 0.1rem solid white;
-        font-size: 10pt;
-        letter-spacing: 0.1rem;
-        opacity: 60%;
-        height: 3rem;
-        width: auto;
-        background-color: black;
-
-        a{
-            color: white;
-            letter-spacing: 0.1rem;
-        }
-
-        a:hover{
-            text-decoration: none;
-            color: white;
-            background-color: grey;
+            font-family: 'Montserrat', sans-serif ;
+            font-size: 8.5pt;
+            padding:1rem;
+            font-weight: bold;
+            top: 0;
         }
     }
-   
+    
+    
+    .main_informacion_RB_rami{ 
+        top: 0rem;
+        width: 40%;
+        img{
+            height: 250px;
+        }
+    
+    }
+    
+    .overlayrami{
+        height: 90%;
+    }
+    
+    .main_informacion_RB_rami:hover .overlayrami {
+    
+        p{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif ;
+            font-size: 8.5pt;
+            padding:1rem;
+            font-weight: bold;
+        }
+    }
+
+    .main_informacion_formulario_titulo{
+        h2{
+            font-size: 11pt;
+        }
+    
+    }
+
+    .carousel-item{
+	
+        img{
+            height: 200px;
+        }
+    }
+
+
 }
-

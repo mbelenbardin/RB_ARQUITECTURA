@@ -28,7 +28,7 @@
 
     img{
         height: 6rem;
-	    width: 6rem;
+	    width: 7rem;
         margin: 1rem;    
         filter: grayscale(100%);
     }
@@ -152,130 +152,136 @@
 /*nosotros*/
 
 .main_informacion_RB{
-    height: 50rem;
-    margin: 0rem;
-    margin-left: 4rem;
-    background-image: url("imagenes/fondorb.jpg");
-    background-size: cover;
+    background-image: url("imagenes/fondobody.png");
+    border-top: solid white 0.1rem;
+    border: solid white 0.1rem;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 0rem;
 }
 
-.main_informacion_RB_texto{
-    background-image: url("imagenes/fondobody.png");   
-    margin: 0rem; 
-    position: relative;
-    top: 2.5rem;
-    left: 10rem;
-    height: 45rem;
-    width: 48.5rem;
-    border-top: solid white 0.1rem;
-    border-bottom: solid white 0.1rem;
-    border-left: solid white 0.1rem ;
+.main_informacion_RB_texto{ 
+    padding-bottom:2rem;
 
     p{
         padding:2rem;
         text-align: center;
-        font-size: 11pt;
+        font-size: 12pt;
         font-family:'Montserrat', sans-serif ;
         color: rgb(170, 170, 170);
         align-self: center;
+    }
 
+    .botoncontacto{
+        border: 0.1rem solid white;
+        font-size: 10pt;
+        letter-spacing: 0.1rem;
+        opacity: 60%;
+        height: 3rem;
+        width: auto;
+        padding: auto;
+        background-color: black;
+    
+        a{
+            color: white;
+            letter-spacing: 0.1rem;
+        }
+    
+        a:hover{
+            text-decoration: none;
+            color: white;
+        }
+    
+    }
+
+    .botoncontacto:hover{
+        background-color: grey;
     }
 }
 
-.main_informacion_fotos{
-    margin: 0rem;
-    padding: 0rem;
-}
-.main_informacion_fotos_contenedor{
-    margin: 0rem; 
+.main_informacion_RB_nico{
     position: relative;
-    top: 2.5rem;
-    left: 0rem;
-    height: 45rem;
-    padding-left: 0rem;
-    border-top: solid white 0.1rem;
-    border-bottom: solid white 0.1rem;
-    border-right: solid white 0.1rem ; 
-}
-
-.main_informacion_fotos_contenedor_contenedor{
-    position: absolute;
-    top: 7rem;
-    left: 4rem;
+    top: 4rem;
+    width: 40%;
+    margin-right: 0rem;
 
     img{
-        width: 220px;
-        height: 300px;
-        margin: 0rem;
-        padding: 0rem;
+        height: 390px;
+        width: 100%;
+        display: block;
+        margin:0rem;
     }
-
 
 }
 
-.main_informacion_fotos_contenedor_contenedor_mascara_nico{
-    position:absolute;
-    overflow:hidden;
-    top: 0rem;
-    left: 0rem;
-    width: 223px;
-    height: 303px;
-    background-color: rgba(255, 255, 255, 0.9);
-    justify-self: center;
-    opacity: 0;
-    border: 0.3rem solid black;
-    
+.overlaynico{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #dbdbdb94;
+    overflow: hidden;
+    width: 0rem;
+    height: 77.5%;
+    transition: .5s ease;
+  }
+
+.main_informacion_RB_nico:hover .overlaynico {
+    width: 100%;
 
     p{
-        padding: 0.5rem;
-        padding-top: 4rem;
-        font-size: 11pt;
-        font-family:  'Montserrat', sans-serif;
-        letter-spacing: 0.1rem;
         text-align: center;
-        color: black;
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 11pt;
+        padding:2rem;
+        padding-top:10rem;
+        font-weight: bold;
+    }
+  }
 
+
+.main_informacion_RB_rami{
+    position: relative;
+    top: 4rem;
+    padding:0rem;
+    width: 50%;
+    margin-right: 0rem;
+
+    img{
+        height: 390px;
+        width: 100%;
+        display: block;
+        margin:0rem;
     }
 
 }
 
-.main_informacion_fotos_contenedor_contenedor_mascara_rami{
-    position:absolute;
-    overflow:hidden;
-    top: 0rem;
-    left: 22.5rem;
-    width: 221px;
-    height: 303px;
-    background-color: rgba(255, 255, 255, 0.9);
-    justify-self: center;
-    opacity: 0;
-    border: 0.3rem solid black;
-    
+.overlayrami{
+    position: absolute;
+    top:0;
+    left: 100%;
+    background-color: #dbdbdb94;
+    overflow: hidden;
+    width: 0;
+    height: 77.5%;
+    transition: .5s ease;
+  }
+
+.main_informacion_RB_rami:hover .overlayrami {
+    width: 92%;
+    left: 0;
 
     p{
-        padding: 0.5rem;
-        padding-top: 4rem;
-        font-size: 11pt;
-        font-family:  'Montserrat', sans-serif;
-        letter-spacing: 0.05rem;
         text-align: center;
-        color: black;
-
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 11pt;
+        padding:2rem;
+        padding-top:10rem;
+        font-weight: bold;
     }
+  }
 
-}
-
-.main_informacion_fotos_contenedor_contenedor_mascara_rami:hover{
-    opacity: 1 ;
-    transition: opacity 0.6s;
-
-}
-
-.main_informacion_fotos_contenedor_contenedor_mascara_nico:hover{
-    opacity: 1 ;
-    transition: opacity 0.6s;
-
-}
 
 /*proyectos*/
 
@@ -290,7 +296,6 @@
     padding-right: 0px;
     padding-top: 4rem;
     padding-bottom: 4rem;
-
     border-radius: 4rem ;
     width: 100%;
 }
@@ -329,38 +334,4 @@
     margin-bottom: 4rem;
 }
 
-.main_otrosproyectos1{
-    height: auto;
-    width: 90%;
-    background-color: black;
-    padding:1rem;
-    margin-bottom: 2rem;
-    border: solid 0.1rem rgb(0, 0, 0);
-    box-shadow: -2px -2px 5px 2px rgb(34, 33, 33);
-    justify-self: center;
 
-}
-
-.descripciontexto1{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.1rem;
-    font-size: 10pt;
-    padding: 2rem;
-    text-align:center;
-    color: rgb(170, 170, 170);
-}
-
-.descripciontexto2{
-    @extend .descripciontexto1;
-    color: black;
-}
-
-.main_otrosproyectos2{
-    @extend .main_otrosproyectos1;
-    background-color:white;
-    border-left: solid 0.1rem grey;
-}
-
-.proyecto_contenido{
-    padding: 1rem;
-}
