@@ -555,7 +555,7 @@ summary {
   background-color: #dbdbdb94;
   overflow: hidden;
   width: 0rem;
-  height: 77.5%;
+  height: 395px;
   transition: .5s ease; }
 
 .main_informacion_RB_nico:hover .overlaynico {
@@ -587,7 +587,7 @@ summary {
   background-color: #dbdbdb94;
   overflow: hidden;
   width: 0;
-  height: 77.5%;
+  height: 395px;
   transition: .5s ease; }
 
 .main_informacion_RB_rami:hover .overlayrami {
