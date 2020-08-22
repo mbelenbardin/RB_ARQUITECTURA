@@ -1,0 +1,26 @@
+{
+  "name": "rb_arq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbelenbardin/RB_ARQUITECTURA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbelenbardin/RB_ARQUITECTURA/issues"
+  },
+  "homepage": "https://github.com/mbelenbardin/RB_ARQUITECTURA#readme",
+  "description": ""
+}
