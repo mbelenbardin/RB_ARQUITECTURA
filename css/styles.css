@@ -499,6 +499,9 @@ summary {
       .main_informacion_personal ul li .mail {
         width: 4rem;
         height: 3rem; }
+      .main_informacion_personal ul li a {
+        text-decoration: none;
+        color: #aaaaaa; }
 
 /*nosotros*/
 .main_informacion_RB {
