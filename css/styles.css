@@ -735,7 +735,7 @@ summary {
   .main_informacion_RB_nico {
     top: 0rem;
     width: 40%;
-    left: 0.5rem; }
+    left: 0.8rem; }
     .main_informacion_RB_nico img {
       height: 250px;
       width: 100%; }
@@ -743,7 +743,7 @@ summary {
     height: 255px; }
   .main_informacion_RB_nico:hover .overlaynico {
     width: 95%;
-    left: 0.5rem; }
+    left: 0.8rem; }
     .main_informacion_RB_nico:hover .overlaynico p {
       text-align: center;
       font-family: 'Montserrat', sans-serif;
@@ -754,7 +754,7 @@ summary {
   .main_informacion_RB_rami {
     top: 0rem;
     width: 40%;
-    left: 0.5rem; }
+    left: 0.7rem; }
     .main_informacion_RB_rami img {
       height: 250px; }
   .overlayrami {
