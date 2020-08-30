@@ -501,7 +501,7 @@ summary {
         height: 3rem; }
       .main_informacion_personal ul li a {
         text-decoration: none;
-        color: #aaaaaa; }
+        color: rgba(29, 43, 236, 0.87); }
 
 /*nosotros*/
 .main_informacion_RB {
@@ -746,7 +746,9 @@ summary {
       margin: 0rem;
       padding: 0rem; }
   #logonavegador {
-    margin-left: 0rem; } }
+    margin-left: 0rem; }
+  .main_subtituloprincipal {
+    font-size: 14pt; } }
 
 @media (max-width: 850px) {
   .main_titulomarca {
@@ -841,8 +843,8 @@ summary {
   .carousel-item img {
     height: 200px; }
   .overlay-image1:hover .hover2 .text2_2 {
-    font-size: 10pt;
-    margin-top: 3rem; }
+    font-size: 8pt;
+    margin-top: 1rem; }
   .overlay-image1:hover .hover1 .text1_2 {
-    font-size: 10pt;
-    margin-top: 3rem; } }
+    font-size: 8pt;
+    margin-top: 1rem; } }
